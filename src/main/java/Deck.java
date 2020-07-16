@@ -16,19 +16,19 @@ public class Deck {
 
     public void buildDeck() {
         for(RankType rank : RankType.values()){
-            Card Card = new Card(SuitType.HEARTS, rank);
+            Card card = new Card(SuitType.HEARTS, rank);
             this.decklist.add(card);
         }
         for(RankType rank : RankType.values()){
-            Card Card = new Card(SuitType.CLUBS, rank);
+            Card card = new Card(SuitType.CLUBS, rank);
             this.decklist.add(card);
         }
         for(RankType rank : RankType.values()){
-            Card Card = new Card(SuitType.DIAMONDS, rank);
+            Card card = new Card(SuitType.DIAMONDS, rank);
             this.decklist.add(card);
         }
         for(RankType rank : RankType.values()){
-            Card Card = new Card(SuitType.SPADES, rank);
+            Card card = new Card(SuitType.SPADES, rank);
             this.decklist.add(card);
         }
     }
